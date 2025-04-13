@@ -10,7 +10,7 @@ body{
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    background:black;
+    background:green;
 }
 
 /* header  */
@@ -183,7 +183,7 @@ body{
 
 .project-section .project a{
     background:red;
-    padding:5px 55px;
+    padding:5px 35px;
     border-radius:20px;
     font-size:20px;
     font-weight:600;
@@ -202,4 +202,23 @@ body{
 /* contact */
 #contact{
     height:100vh;
+    display:flex;
+    align-items:center;
+    text-align:center;
+}
+
+.contact-section .contact{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.contact-section .contact input{
+    height:40px;
+    width:250px;
+    border:none;
+}
+
+.contact-section .contact input::placeholder{
+    font-size:20px;
 }
