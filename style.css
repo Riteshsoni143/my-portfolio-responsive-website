@@ -423,3 +423,9 @@ body{
     }
 }
 
+@media(min-width:1000px) {
+    #home, #project{
+        width:100%;
+    }
+}
+
