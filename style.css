@@ -142,6 +142,8 @@ body{
     background:rgb(53, 52, 52);
     border:none;
     border-radius:10px;
+    box-shadow:3px 5px 20px black,
+               -3px -5px 20px black;
     padding:10px;
     margin-bottom:50px;
 }
@@ -162,6 +164,7 @@ body{
 
 .about-section p, li{
     font-size:17px;
+    font-weight:600;
     text-align:start;
     padding-left:10px;
 }
