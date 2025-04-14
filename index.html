@@ -89,13 +89,16 @@
     <div id="contact" class="section">
         <div class="contact-section">
             <h1>contact</h1>
-            <div class="contact">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="tel" placeholder="Phone">
-                <textarea placeholder="Massage" rows="5" cols="1" name="massage"></textarea>
-            </div>
-            <button type="submit" class="contact-btn">Submit</button>
+
+            <form action="https://codeyogi.io/save">
+                <div class="contact">
+                    <input type="text" placeholder="Name" name="Name" maxlength="18" required>
+                    <input type="email" placeholder="Email" name="Email"required>
+                    <input type="tel" placeholder="Phone" name="Phone" minlength="10" maxlength="10" required>
+                    <textarea placeholder="Massage" rows="5" cols="1" name="massage" minlength="15" required></textarea>
+                </div>
+                <button type="submit" class="contact-btn">Submit</button>
+            </form>
         </div>
     </div>
 
