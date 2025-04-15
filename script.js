@@ -1,4 +1,4 @@
-// function toggleSidebar() {
+// function Sidebar() {
 //     let toggle= document.getElementById("sidebar");
-//     toggle.style.right = 0;
+//     toggle.style.background = "blue";
 // }

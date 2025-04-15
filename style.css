@@ -575,4 +575,19 @@ body{
     .home-section{
         width:1000px;
     }
+
+    #project h1{
+        font-size:100px;
+    }
+
+    .project-section{
+        flex-direction:row;
+        justify-content:space-evenly;
+        padding:60px 100px;
+    }
+
+    .project-section #first,  #second, #third{
+        width:250px;
+        height:500px;
+    }
 }
