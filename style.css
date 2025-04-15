@@ -5,7 +5,7 @@
 }
 
 body{
-    max-width:100%;
+    width:100%;
     min-height:100vh;
     display:flex;
     flex-direction:column;
@@ -51,6 +51,7 @@ body{
 #header .header-btn button:hover{
     background:white;
     border:2px solid  rgb(10, 131, 244);
+    transform:scale(1.2);
 }
 
 #header #menu-icon{
@@ -120,6 +121,11 @@ body{
 
 .home-section .details .home-links a{
     color:red;
+}
+
+.home-section .details .home-links a:hover{
+    color:white;
+    text-decoration:underline;
 }
 
 .home-section .image{
@@ -351,6 +357,10 @@ body{
     border-radius:50%;
     overflow:hidden;
     margin-left:10px
+}
+
+.footer-section .social-links a:hover{
+    transform:scale(1.4);
 }
 
 .footer-section .social-links img{
