@@ -546,6 +546,10 @@ body{
         display:none;
     }
 
+    #header .sidebar{
+        display:none;
+    }
+
     #header .header-btn{
         display:block;
     }
