@@ -83,10 +83,6 @@ body{
     text-align:start;
 }
 
-#header .sidebar .close-icon:hover{
-    color:black;
-}
-
 #header .sidebar button{
     border:none;
     background:grey;
@@ -104,6 +100,13 @@ body{
     top:0;
     right:150;
     padding:0;
+    height:30px;
+    width:30px;
+}
+
+#header .sidebar .close-icon:hover{
+    color:black;
+    background:red;
 }
 
 #header .sidebar button:hover{
