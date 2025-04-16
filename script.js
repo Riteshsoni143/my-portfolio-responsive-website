@@ -1,4 +1,9 @@
-// function Sidebar() {
-//     let toggle= document.getElementById("sidebar");
-//     toggle.style.background = "blue";
-// }
+function toggleSidebarOpen(){
+    let toggle = document.getElementById("sidebar");
+    toggle.style.width = "150px";
+}
+
+function toggleSidebarClose(){
+    let toggle = document.getElementById("sidebar");
+    toggle.style.width = "0";
+}

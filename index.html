@@ -18,12 +18,19 @@
             <button>Contact</button>
         </div>
 
-        <div id="menu-icon">☰</div>
-        <div class="sidebar">
+        <div class="menu-icon">
+            <a href="#" onclick="toggleSidebarOpen()">☰</a>
+        </div>
+
+        <div class="sidebar" id="sidebar">
+            <div id="close-icon">
+                <button class="close-icon" onclick="toggleSidebarClose()"> <ion-icon name="close-outline"></ion-icon> </button>
+            </div>
+         
             <button>Home</button>
             <button>About</button>
             <button>Project</button>
-            <button id="fourth-btn">Contact</button>
+            <button>Contact</button>
         </div>
     </div>
 
@@ -120,5 +127,9 @@
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>       
 </body>
 </html>
