@@ -96,6 +96,7 @@ body{
 
 #header .sidebar .close-icon{
     border:none;
+    border-bottom-right-radius:10px;
     background:none;
     color:white;
     font-size:30px;
