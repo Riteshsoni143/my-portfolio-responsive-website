@@ -140,6 +140,10 @@ body{
     margin:0 20px;
 }
 
+.home-section .details{
+    margin-top:15%;
+}
+
 .home-section .details h2{
     padding:10px 0;
 }
@@ -489,14 +493,14 @@ body{
 
 @media(min-width:430px) {
     .home-section .details h1{
-        font-size:55px;
+        font-size:45px;
     } 
     .home-section .details h2{
-        font-size:40px;
+        font-size:30px;
     }
 
     .home-section .details p{
-        font-size:25px;
+        font-size:22px;
     }
 
     .home-section .details .home-links{
@@ -626,5 +630,13 @@ body{
     .project-section #first,  #second, #third{
         width:250px;
         height:500px;
+    }
+}
+
+@media(max-height:700px) and (min-width:350px) and (max-width:430px) {
+    .home-section .image{
+        width:230px;
+        height:230px;
+    
     }
 }
