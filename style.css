@@ -80,10 +80,6 @@ body{
     border-bottom-left-radius:20px
 }
 
-#header .sidebar .close-icon{
-    text-align:start;
-}
-
 #header .sidebar a{
     height:70px;
     display:flex;
@@ -102,8 +98,6 @@ body{
     font-size:30px;
     position:fixed;
     top:0;
-    right:150;
-    padding:0;
     height:30px;
     width:30px;
 }
