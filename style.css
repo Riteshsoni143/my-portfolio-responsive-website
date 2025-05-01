@@ -70,7 +70,7 @@ body{
     flex-direction:column;
     width:0;
     height:100%;
-    position: fixed;
+    position:fixed;
     top: 0;
     right: 0;
     overflow-x: hidden;
